@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 30px;
+}
+
+header li {
+  background-color: black;
+  width: 25px;
+  height: 3px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 1em;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+}
+
+section li {
+  background-color: pink;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 3em;
+  background: black;
+}
+
+/*
+
+  Typografie
+
+*/
+
+h2{
+  padding:1em 0;
+}
