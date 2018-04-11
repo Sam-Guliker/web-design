@@ -93,9 +93,6 @@ img {
   width: 18.75em;
   box-shadow: 0px 0px 20px 5px rgba(0,0,0, 0.1);
 }
-#detail li {
-  text-align: center;
-}
 section nav ul{
   display: flex;
   justify-content: space-between;
@@ -178,6 +175,9 @@ section nav ul{
 #list h1 {
   font-size: 3em;
 }
+#detail h2{
+    font-size: 2em;
+}
 
 /*
 
@@ -220,5 +220,5 @@ section li p {
 #detail h2 {
   margin: 0;
   padding: 0;
-  padding-top: 1.25em;
+  padding-top: .7em;
 }
