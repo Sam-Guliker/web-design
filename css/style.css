@@ -72,12 +72,14 @@ img {
   border-radius: 8px;
   box-shadow: 0px 0px 20px 5px rgba(0,0,0, 0.1);
 }
-#detail .back ,#list .back{
-  color:#ffffff;
-  width:initial;
-  height:initial;
-  display:inline-block;
-  box-shadow:none;
+#detail .back ,#list .back {
+  color: #ffffff;
+  width: initial;
+  height: initial;
+  background: 0;
+  display: inline-block;
+  box-shadow: none;
+  padding-right: .7em;
 }
 
 /*
@@ -158,7 +160,6 @@ section nav ul{
 }
 #list header {
   padding-bottom: 1em;
-  background: #eeeeee;
 }
 .fab section {
   display: flex;
