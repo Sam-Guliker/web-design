@@ -3,11 +3,6 @@
 
 [The App](https://vocal-catch-xspgyuqxno.now.sh)
 
-
-This is a chat using your voice to input the text instead of typing.  
-The application is a Real-time app using voice recognision from the browser.  
-It also filters f*** out of the chat and replaces it with `I need some help.`  
-
 ![Cover image of the app](doc-images/image-cover.png)
 
 # Table of Content
