@@ -1,22 +1,34 @@
-# web-design
+# Web-design
 `This` document contains the insights of web-design.
 
-## Principles of User Interface Design
+[The App](https://vocal-catch-xspgyuqxno.now.sh)
+
+
+This is a chat using your voice to input the text instead of typing.  
+The application is a Real-time app using voice recognision from the browser.  
+It also filters f*** out of the chat and replaces it with `I need some help.`  
+
+![Cover image of the app](doc-images/image-cover.png)
+
+# Table of Content
+- [Getting started](#getting-started)
+- [Features](#features)
+- [Todo](#todo)
+
+
+# Getting Started
+How to get started with this project:
+
+1. Clone the repo with `git clone https://github.com/Sam-Guliker/real-time-web.git` or download it from github
+2. Navigate to the project with `cd opdracht-1`
+3. Run `npm install` or `yarn` to install the dependencies
+4. Run `npm start` to start the server
+5. Go to [http://localhost:3000/](http://localhost:3000/)
+
+# Principles of User Interface Design
 It will contain some of the User Interface Designs Principles
 
-## Designs
-The designs are currently focussed on core functionallity.  
-There is no colours in it yet. I will add this later on.
-#### Mobile
-![startpagina-m](images/startpage.png)
+# Todo
+This is what is left to do.
 
-![nowplaying-m](images/nowplaying.png)
-
-![list-m](images/list.png)
-
-#### Desktop
-![startpagina-DT](images/startpage-DT.png)
-
-![nowplaying-DT](images/nowplaying-DT.png)
-
-![list-DT](images/list-DT.png)
+- [x] Deploy the app. 
