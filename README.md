@@ -1,9 +1,7 @@
 # Web-design
 `This` document contains the insights of web-design.
 
-[The App](https://vocal-catch-xspgyuqxno.now.sh)
-
-![Cover image of the app](doc-images/image-cover.png)
+[The App](https://sam-guliker.github.io/web-design/)
 
 # Table of Content
 - [Getting started](#getting-started)
