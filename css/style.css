@@ -5,8 +5,10 @@
 }
 
 body {
+  max-width: 25em;
   min-height: 100vh;
   padding-right: 0;
+  margin: auto;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa68d2+0,5e49a1+100 */
@@ -30,6 +32,7 @@ ul {
 }
 
 header {
+  position: relative;
   padding: 1.875em;
   margin:0;
   /* display: flex;
@@ -128,13 +131,14 @@ section nav ul{
 #list main {
   margin-right: 1.875em;
 }
-.circle {
+.play-btn {
   position: relative;
   width: 2em;
   height: 2em;
   background: #2e2e2e;
   border-radius: 50%;
   right: 0.7em;
+  border: none;
 }
 #list a {
   display: block;
@@ -146,13 +150,14 @@ section nav ul{
 }
 #list .fab{
   display: flex;
-  width: 5em;
-  height: 5em;
+  width: 6em;
+  height: 6em;
   background-color: #ffffff;
   position: absolute;
   border-radius: 50%;
-  left: calc(100% - 115px);
-  top: calc(10% + 7.2em );
+  bottom: 0;
+  right: 2.8em;
+  border: none;
   box-shadow: 0px 0px 20px 5px rgba(0,0,0, 0.1);
 }
 #list header {
@@ -175,8 +180,14 @@ section nav ul{
 #list h1 {
   font-size: 3em;
 }
-#detail h2{
+#detail h2 {
     font-size: 2em;
+}
+.chev-right {
+  display: block;
+  color: #fff;
+  margin-top: -6px;
+  transform: scale(2);
 }
 
 /*
