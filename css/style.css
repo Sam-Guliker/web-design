@@ -148,7 +148,7 @@ section nav ul{
   padding-top: 1.25em;
   font-weight: 500;
 }
-#list .fab{
+.fab{
   display: flex;
   width: 6em;
   height: 6em;
@@ -189,7 +189,39 @@ section nav ul{
   margin-top: -6px;
   transform: scale(2);
 }
-
+#detail .fab {
+  bottom:initial;
+  right: initial;
+  margin-top: 0;
+  background: #fff;
+}
+#detail article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#detail article section {
+  margin: auto;
+}
+#detail article {
+  margin-top: 1.25em;
+}
+#detail article button {
+  margin-top: 2em;
+  vertical-align:  center;
+  background: none;
+  border: none;
+}
+#detail button .detail-btn {
+  background:initial;
+  width:initial;
+  height:initial;
+  background: none;
+  box-shadow: none;
+}
+.backward {
+  transform: rotateY(180deg);
+}
 /*
 
   Typografie
@@ -232,4 +264,12 @@ section li p {
   margin: 0;
   padding: 0;
   padding-top: .7em;
+}
+input[type="range"] {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+audio {
+  display: none;
 }
